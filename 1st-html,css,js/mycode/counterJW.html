@@ -1,0 +1,28 @@
+<div>
+    <div class="num">0</div>
+    <button class="plus">+1</button>
+    <button class="minus">-1</button>
+</div>
+
+<script>
+    const plus = document.querySelector(".plus");
+    const minus = document.querySelector(".minus");
+    const numDisplay = document.querySelector('.num')
+
+let num = 0;
+plus.onclick = () => {
+    console.log("+1 버튼 클릭됨");
+    num = num + 1
+    numDisplay.textContent = num + 1;
+};
+
+minus.addEventListener('click', () => {
+    console.log('-버튼 눌렸다');
+    num = num - 1;
+});
+</script>
+    
+    
+
+
+    
