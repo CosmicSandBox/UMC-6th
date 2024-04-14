@@ -3,9 +3,9 @@ import { BrowserRouter as Router } from 'react-router-dom';
 
 
 //pages
-import CounterJW from "./pages/counterJW"
-import ModalJW from "./pages/modalJW"
-import ToDo from "./pages/todo"
+import CounterJW from "./pages/mycode/counterJW"
+import ModalJW from "./pages/mycode/modalJW"
+import ToDo from "./pages/mycode/todo"
 
 function App() {
   return (
