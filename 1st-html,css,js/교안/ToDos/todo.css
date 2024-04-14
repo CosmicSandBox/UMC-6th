@@ -52,6 +52,8 @@ body {
   
     width: 100%;
   }
+
+  /*여기서부터*/
   .todo,
   .done {
     width: 60%;
@@ -70,6 +72,7 @@ body {
     justify-content: center;
     align-items: center;
   }
+  /*여기까지 html에 없는 class 수식 */
   
   form {
     width: 100%;
@@ -94,3 +97,4 @@ body {
     height: 30px;
     cursor: pointer;
   }
+  
