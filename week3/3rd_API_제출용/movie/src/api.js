@@ -73,3 +73,4 @@ export const getSearch = async (query) => {
     .catch((err) => console.log(err));
   return temp;
 };
+
